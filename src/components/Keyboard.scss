@@ -1,0 +1,102 @@
+/* 车牌键盘组件命名空间 pkd
+* 解决h5端同名样式问题
+*/
+.pkd-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d5dadd;
+  border-top: 1px solid #bebdbd;
+}
+
+.pkd-close-bar {
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  color: #e59100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #f8f8f8;
+}
+
+.pkd-close {
+  margin-right: 25px;
+}
+
+.pkd-key-panel {
+  width: 100%;
+  min-width: 750px;
+  height: 475px;
+}
+
+.pkd-row {
+  width: 100%;
+  height: 112px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pkd-key {
+  width: 75px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pkd-key:active {
+  transform: scale3d(0.9, 0.9, 0.9);
+  color: #e59100;
+}
+
+.pkd-fkey {
+  width: 112px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pkd-fkey:active {
+  transform: scale3d(0.9, 0.9, 0.9);
+  color: #e59100;
+}
+
+.pkd-key-bg {
+  width: 75px;
+  height: 112px;
+  position: absolute;
+}
+
+.pkd-fkey-bg {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+}
+
+.pkd-key-value {
+  position: relative;
+}
+
+.pkd-delete-key {
+  width: 53px;
+  height: 40px;
+  position: relative;
+}
+
+.pkd-margin-top-13x {
+  margin-top: 13px;
+}
