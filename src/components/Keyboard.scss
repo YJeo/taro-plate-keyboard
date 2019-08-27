@@ -1,6 +1,8 @@
 /* 车牌键盘组件命名空间 pkd
 * 解决h5端同名样式问题
 */
+$themeColor: #e59100;
+
 .pkd-wrapper {
   position: fixed;
   left: 0;
@@ -12,91 +14,93 @@
   align-items: center;
   background-color: #d5dadd;
   border-top: 1px solid #bebdbd;
-}
 
-.pkd-close-bar {
-  width: 100%;
-  height: 70px;
-  font-size: 30px;
-  color: #e59100;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: #f8f8f8;
-}
+  .pkd-close-bar {
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    color: $themeColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #f8f8f8;
 
-.pkd-close {
-  margin-right: 25px;
-}
+    .pkd-close {
+      margin-right: 25px;
+    }
+  }
 
-.pkd-key-panel {
-  width: 100%;
-  min-width: 750px;
-  height: 475px;
-}
+  .pkd-key-panel {
+    width: 100%;
+    min-width: 750px;
+    height: 475px;
 
-.pkd-row {
-  width: 100%;
-  height: 112px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
+    .pkd-margin-top-13x {
+      margin-top: 13px;
+    }
 
-.pkd-key {
-  width: 75px;
-  height: 112px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
+    .pkd-row {
+      width: 100%;
+      height: 112px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
 
-.pkd-key:active {
-  transform: scale3d(0.9, 0.9, 0.9);
-  color: #e59100;
-}
+      .pkd-key {
+        width: 75px;
+        height: 112px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &:active {
+          transform: scale3d(0.9, 0.9, 0.9);
+          color: $themeColor;
+        }
 
-.pkd-fkey {
-  width: 112px;
-  height: 112px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
+        .pkd-key-bg {
+          width: 75px;
+          height: 112px;
+          position: absolute;
+        }
 
-.pkd-fkey:active {
-  transform: scale3d(0.9, 0.9, 0.9);
-  color: #e59100;
-}
+        .pkd-key-value {
+          position: relative;
+        }
+      }
 
-.pkd-key-bg {
-  width: 75px;
-  height: 112px;
-  position: absolute;
-}
+      .pkd-fkey {
+        width: 112px;
+        height: 112px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &:active {
+          transform: scale3d(0.9, 0.9, 0.9);
+          color: $themeColor;
+        }
+      
+        .pkd-fkey-bg {
+          width: 112px;
+          height: 112px;
+          position: absolute;
+        }
 
-.pkd-fkey-bg {
-  width: 112px;
-  height: 112px;
-  position: absolute;
-}
+        .pkd-delete-key {
+          width: 53px;
+          height: 40px;
+          position: relative;
+        }
 
-.pkd-key-value {
-  position: relative;
-}
-
-.pkd-delete-key {
-  width: 53px;
-  height: 40px;
-  position: relative;
-}
-
-.pkd-margin-top-13x {
-  margin-top: 13px;
+        .pkd-key-value {
+          position: relative;
+        }
+      }
+    }
+  }
 }
