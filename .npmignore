@@ -1,0 +1,16 @@
+.temp/
+.rn_temp/
+.DS_Store
+.git
+.eslintrc
+.editorconfig
+.gitignore
+.npmignore
+config/
+src/app.jsx
+src/app.scss
+src/index.html
+src/pages/
+node_modules/
+yarn.lock
+project.config.json
