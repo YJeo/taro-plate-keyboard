@@ -9,7 +9,14 @@
 #### Installation
 
 ```
-npm install taro-ui
+# npm
+$ npm install taro-plate-keyboard
+
+# OR yarn
+$ yarn add taro-plate-keyboard
+
+# OR cnpm
+$ cnpm install taro-plate-keyboard
 ```
 
 #### Basic Usage
