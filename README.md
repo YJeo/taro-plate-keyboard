@@ -67,11 +67,11 @@ export default class Index extends Component {
 
 #### Properties
 
-| Prop         |           Default            |  Type  | Description                                                  |
-| ------------ | :--------------------------: | :----: | ------------------------------------------------------------ |
-| isChineseKey |             true             | `bool` | If `true`, this keyboard will switch to a Chinese keyboard, and conversely, to a numeric and alphabetic keyboard. |
-| onMainKey    |    (key: string) => null     | `func` | Callback when the primary key is pressed.                    |
-| onShift      | (isChineseKey: bool) => null | `func` | Callback when the toggle key is pressed.                     |
-| onDelete     |          () => null          | `func` | Callback when the delete key is pressed.                     |
-| onClose      |          () => null          | `func` | Callback when the close key is pressed.                      |
+| Prop         |        Default        |  Type  | Description                                                  |
+| ------------ | :-------------------: | :----: | ------------------------------------------------------------ |
+| isChineseKey |         true          | `bool` | If `true`, this keyboard will switch to a Chinese keyboard, and conversely, to a numeric and alphabetic keyboard. |
+| onMainKey    | (key: string) => null | `func` | Callback when the primary key is pressed.                    |
+| onShift      |      () => null       | `func` | Callback when the toggle key is pressed.                     |
+| onDelete     |      () => null       | `func` | Callback when the delete key is pressed.                     |
+| onClose      |      () => null       | `func` | Callback when the close key is pressed.                      |
 
