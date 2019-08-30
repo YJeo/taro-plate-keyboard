@@ -1,11 +1,11 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "palteKeyboard",
+  "projectname": "taroPlateKeyboard",
   "description": "This is a license plate keyboard project.",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,
-    "es6": false,
+    "es6": true,
     "postcss": false,
     "minified": false
   },
