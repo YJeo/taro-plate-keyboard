@@ -31,9 +31,9 @@ class PlateKeyboard extends Component {
   }
 
   onShift = () => { // 键盘切换
-    const { onShift, isChineseKey } = this.props
+    const { onShift } = this.props
     if (onShift) {
-      onShift(!isChineseKey)
+      onShift()
     }
   }
 

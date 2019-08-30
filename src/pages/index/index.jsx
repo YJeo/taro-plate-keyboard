@@ -23,8 +23,9 @@ export default class Index extends Component {
 
   componentDidHide () { }
 
-  onShift (isChineseKey) {
-    this.setState({ isChineseKey })
+  onShift () {
+    const { isChineseKey } = this.state
+    this.setState({ isChineseKey: !isChineseKey })
   }
 
   onMainKey (key) {
@@ -38,7 +39,7 @@ export default class Index extends Component {
         <Text>Hello world!</Text>
         <PlateKeyboard
           isChineseKey={isChineseKey}
-          onShift={(val) => this.onShift(val)}
+          onShift={() => this.onShift()}
           onMainKey={(key) => this.onMainKey(key)}
         />
       </View>
