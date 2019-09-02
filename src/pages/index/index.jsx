@@ -32,6 +32,14 @@ export default class Index extends Component {
     console.log('key:', key)
   }
 
+  onClose () {
+    console.log('onClose')
+  }
+
+  onDelete () {
+    console.log('onDelete')
+  }
+
   render () {
     const { isChineseKey } = this.state
     return (
@@ -41,6 +49,8 @@ export default class Index extends Component {
           isChineseKey={isChineseKey}
           onShift={() => this.onShift()}
           onMainKey={(key) => this.onMainKey(key)}
+          onClose={() => this.onClose()}
+          onDelete={() => this.onDelete()}
         />
       </View>
     )
