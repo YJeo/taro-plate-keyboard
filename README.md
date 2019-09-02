@@ -2,7 +2,7 @@
 
 > This project is a license plate keyboard developed by Taro framework.
 >
-> Currently, `WeChat` / `alipay` / `baidu` applet and `H5` are supported.
+> Currently, `WeChat` / `alipay` / `baidu` / `ByteDance` / `QQ` applet and `H5` are supported.
 
 ## Getting Started
 
