@@ -74,10 +74,7 @@ class PlateKeyboard extends Component {
           {
             keyList.map(row => (
               <View
-                className={[
-                  'pkd-row',
-                  row.rId === 0 ? 'pkd-margin-top-13x' : '',
-                ]}
+                className={`pkd-row ${row.rId === 0 ? 'pkd-margin-top-13x' : ''}`}
                 key={row.rId}
               >
                 {/* 输入法切换键 */}
