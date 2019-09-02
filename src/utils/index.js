@@ -1,3 +1,5 @@
+import Taro from '@tarojs/taro'
+
 // 汉字列表
 const chineseList = [
   {
