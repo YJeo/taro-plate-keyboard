@@ -1,5 +1,5 @@
 const config = {
-  projectName: 'palteKeyboard',
+  projectName: 'taroPlateKeyboard',
   date: '2019-8-26',
   designWidth: 750,
   deviceRatio: {
