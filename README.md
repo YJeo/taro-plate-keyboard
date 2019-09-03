@@ -46,11 +46,11 @@ export default class Index extends Component {
     // key: string类型键值
   }
 
-	onDelete () {
+  onDelete () {
     // 键盘删除键事件监听处理函数
   }
 
-	onClose () {
+  onClose () {
     // 键盘关闭键事件监听处理函数
   }
 
